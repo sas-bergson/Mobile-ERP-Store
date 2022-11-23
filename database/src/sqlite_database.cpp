@@ -10,7 +10,7 @@ Sqlite_db::Sqlite_db(){
     this->uri= ss.str();
     this->type = SQLite_db;
 }
-Sqlite_db::Sqlite_db(string name, string  uri, DatabaseType  type=SQLite_db){
+Sqlite_db::Sqlite_db(string name, string  uri, DatabaseType  type){
     this->name = name;
     this->uri = uri;
     this->type = type;
@@ -24,13 +24,14 @@ DatabaseType Sqlite_db::get_type(){return this->type;}
 int Sqlite_db::create(){
     sqlite3 *db;
     int ret;
+    fprintf(stdout, "db.name = %s\ndb.uri = %s\n", this->name.c_str(), this->uri.c_str());
     if (SQLITE_OK != (ret = sqlite3_initialize()))
     {
-        fprintf(stderr, "Failed to initialize library: %d\n", ret);
+        fprintf(stdout, "Failed to initialize library: %d\n", ret);
         return ret;
     }
-   if(SQLITE_OK != (ret = sqlite3_open(uri.c_str(), &db))) {
-      fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+   if(SQLITE_OK != (ret = sqlite3_open(this->name.c_str(), &db))) {
+      fprintf(stdout, "Can't open database: %s\n", sqlite3_errmsg(db));
       sqlite3_close(db);
       return ret;
    } 

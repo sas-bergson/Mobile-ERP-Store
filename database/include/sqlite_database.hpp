@@ -16,6 +16,9 @@
 #define SQLITE_DATABASE_H
 
 #include <database.hpp>
+#include <sqlite3.h>
+#include <sstream>
+#include <fstream>
 using namespace std;
 
 ////////////////////////////////////////////////////////////
