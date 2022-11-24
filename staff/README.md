@@ -22,54 +22,11 @@ This is a module for ERP. It is used to manage staffs.
 🔖 YVANNY
 
 
-## Documentation
-The documentation of this project can be found [here 📖]()
-
-## Screenshots
-
-![App Screenshot](https://media.istockphoto.com/id/1305864842/photo/blank-screen-mockup-template-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=hM2LbvObiTyFqFHT8jTubE5H9aitgPOBLCMZEnbyvjI=)
-
-
-## Usage/Examples
-
-```C++
-import QtQuick 2.12
-import QtQuick.Controls 2.5
-
-Page {
-    width: 600
-    height: 400
-    property alias bubble: bubble
-    property alias mainWindow: mainWindow
-
-    header: Label {
-        text: qsTr("Rotate the phone to move the bubble")
-        font.pixelSize: Qt.application.font.pixelSize * 0.75
-        padding: 5
-    }
-
-    Rectangle {
-        id: mainWindow
-        color: "#ffffff"
-        anchors.fill: parent
-
-        Bubble {
-            id: bubble
-        }
-    }
-}
-```
-
-
-
-## Features
-
-- SQLite database support ✨
-- Enhanced an modern UI ✨
-- Declarative UX ✨
-- Cross platform support ✨
-- Easy to use ✨
-
-## Appendix
-
-Any additional information goes here
+### STAFF MANAGEMENT MODULE
+ Commits logs
+  
+ #### 18 Nove 2022, Added informations in README file
+ #### 18 Nov 2022Created staff management branch
+ ### 24 Nov 2022,Updated README
+    - removed unecessary informations in readme
+    - added commits logs and history
