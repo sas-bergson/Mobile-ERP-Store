@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>561</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="toolTipDuration">
+     <number>-2</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="lineWidth">
+     <number>-2</number>
+    </property>
+    <property name="midLineWidth">
+     <number>-3</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets.qrc">:/Assets/Amazing-HD-Black-Wallpapers.jpg</pixmap>
+    </property>
+    <property name="margin">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton {
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+background: blue;
+selection-background-color: darkgray;
+}</string>
+    </property>
+    <property name="text">
+     <string>Deparment</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>18</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>298</number>
+    </property>
+    <property name="autoRepeatInterval">
+     <number>96</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>170</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTipDuration">
+     <number>1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2 {
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+background: blue;
+selection-background-color: darkgray;
+}</string>
+    </property>
+    <property name="text">
+     <string>Jobs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>280</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3 {
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+background: blue;
+selection-background-color: darkgray;
+}</string>
+    </property>
+    <property name="text">
+     <string>Shifts</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>19</height>
+     </size>
+    </property>
+    <property name="autoRepeatInterval">
+     <number>102</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>
