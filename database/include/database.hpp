@@ -22,7 +22,7 @@
 using namespace std;
 
 enum DatabaseType{
-    Sqlite_db,
+    SQLite_db,
     MySql_db,
     PostGreSql_db
 };

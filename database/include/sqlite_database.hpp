@@ -16,6 +16,9 @@
 #define SQLITE_DATABASE_H
 
 #include <database.hpp>
+#include <sqlite3.h>
+#include <sstream>
+#include <fstream>
 using namespace std;
 
 ////////////////////////////////////////////////////////////
@@ -28,42 +31,123 @@ using namespace std;
 ///     + drop       -- drops the database in the DB management systems
 ///
 ////////////////////////////////////////////////////////////
-class SQLite_db: public Database{
+class Sqlite_db: public Database{
         public:
-            SQLite_db();
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
+            Sqlite_db();
             ////////////////////////////////////////////////////////////
             /// \brief Parameterized constructor.
-            ///
-            /// This constructor initialize the database using the following parameters
             ///
             /// \param name   name of one of the database
             /// \param uri   location of the database in the system
             /// \param DatabaseType   this is the type of the database (default value is Sqlite_db)
-            ///
             ////////////////////////////////////////////////////////////
-            SQLite_db(string name, string  uri, DatabaseType  type=Sqlite_db);
-            ~SQLite_db();
+            Sqlite_db(string name, string  uri, DatabaseType  type=SQLite_db);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
+            ~Sqlite_db();
+             virtual string get_uri();
+            virtual string get_name();
+            virtual DatabaseType get_type();
+            virtual int32_t create();
+            virtual int32_t drop();
 };
 
 class IntegerField: public Field{
         public:
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
             IntegerField();
+            ////////////////////////////////////////////////////////////
+            /// \brief Parameterized constructor.
+            ///
+            /// \param name   name of one of the database
+            /// \param FieldType   this is the type of the database (default value is Integer)
+            ////////////////////////////////////////////////////////////
             IntegerField(string name, FieldType type = Integer);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
             ~IntegerField();
 };
 
 class TextField: public Field{
         public:
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
             TextField();
+             ////////////////////////////////////////////////////////////
+            /// \brief Parameterized constructor.
+            ///
+            /// \param name   name of one of the database
+            /// \param FieldType   this is the type of the database (default value is Text)
+            ////////////////////////////////////////////////////////////
             TextField(string name, FieldType type = Text);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
             ~TextField();
 };
 
 class NumericField: public Field{
         public:
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
             NumericField();
-            NumericField(string name, FieldType type = Text);
+             ////////////////////////////////////////////////////////////
+            /// \brief Parameterized constructor.
+            ///
+            /// \param name   name of one of the database
+            /// \param FieldType   this is the type of the database (default value is Numeric)
+            ////////////////////////////////////////////////////////////
+            NumericField(string name, FieldType type = Numeric);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
             ~NumericField();
+};
+
+class BlobField: public Field{
+        public:
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
+            BlobField();
+             ////////////////////////////////////////////////////////////
+            /// \brief Parameterized constructor.
+            ///
+            /// \param name   name of one of the database
+            /// \param FieldType   this is the type of the database (default value is Blob)
+            ////////////////////////////////////////////////////////////
+            BlobField(string name, FieldType type = Blob);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
+            ~BlobField();
+};
+
+class SqliteTable: public Table{
+        public:
+            ////////////////////////////////////////////////////////////
+            /// \brief default constructor.
+            ////////////////////////////////////////////////////////////
+            SqliteTable();
+             ////////////////////////////////////////////////////////////
+            /// \brief Parameterized constructor.
+            ///
+            /// \param name   name of one of the database
+            ////////////////////////////////////////////////////////////
+            SqliteTable(string name);
+            ////////////////////////////////////////////////////////////
+            /// \brief destructor.
+            ////////////////////////////////////////////////////////////
+            ~SqliteTable();
 };
 
 #endif
