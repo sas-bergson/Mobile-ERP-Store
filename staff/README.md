@@ -30,3 +30,6 @@ This is a module for ERP. It is used to manage staffs.
  ### 24 Nov 2022,Updated README
     - removed unecessary informations in readme
     - added commits logs and history
+
+### 28 Nov 2022, Update Reamde
+   - recreated ```staff-management``` branch
