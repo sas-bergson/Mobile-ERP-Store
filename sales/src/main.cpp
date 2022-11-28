@@ -1,20 +1,24 @@
+// made by NYAAH LARRIEN 
+// anyone can use and modify this code
+// this code gets array of product and quantity sold a day
+// and makes a report to the manager at the end of the day
+// this code is not yet complete and much work is still to be done
+// no sqlite database connection yet
+
 #include <iostream>
 #include <string>
-#include "salesvolumereport.hpp"
+#include "../lib/report.cpp"
+
 
 using namespace std;
 
 int main(){
 
-    // object of the SalesVolumeReport class
+// sms object of report class
+    Report sms;
 
-     SalesVolumeReport store;
+    sms.reportdetail();
 
-        // list of products name and quantity sold 
-    store.SN[4]={"glass","cup","plates","spoons","knives"};
-    store.SQS[4]={200,20,129,90,70}
-
-
-    store.volumereport(int i, string SN[], int SQS[]);
+    return 0;
 
 }
