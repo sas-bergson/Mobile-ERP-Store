@@ -33,3 +33,6 @@ This is a module for ERP. It is used to manage staffs.
 
 ### 28 Nov 2022, Update Reamde
    - recreated ```staff-management``` branch
+   - added project's global architecture
+   - added contributions guidelines
+   
