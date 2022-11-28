@@ -1,0 +1,12 @@
+release/addemp.o
+release/delete.o
+release/main.o
+release/mainwindow.o
+release/search.o
+release/update.o
+release/qrc_Images.o
+release/moc_addemp.o
+release/moc_delete.o
+release/moc_mainwindow.o
+release/moc_search.o
+release/moc_update.o
