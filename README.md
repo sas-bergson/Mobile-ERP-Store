@@ -7,6 +7,11 @@ an AI-powered ERP System for small and middle-sized Store
  ![Sqlite_Database](https://user-images.githubusercontent.com/117815821/204324562-f49116c7-711e-4bb1-94b3-d2238e1f479f.png)
 
  
+ -Main Menu
+ 
+ ![MainMenu](https://user-images.githubusercontent.com/117815821/204332931-ae12498e-5a62-4374-92ed-4bcd1334221e.png)
+
+ 
  - Employee List
 
 ![Employee_List](https://user-images.githubusercontent.com/117815821/204324655-b63727e1-61ba-45d3-b690-30f9b25685a5.png)
