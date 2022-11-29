@@ -1,11 +1,11 @@
-# Mobile-ERP-Store
-an AI-powered ERP System for small and middle-sized Store
+This module is in charge of managing the various department in an ERP-store and also the jobs related to this module.
+For now this module contains the following
+?The main windows, which have 3 buttons, which are for the departments,jobs and shifts.
 
-### Wed Nov 9 Created all the main modules of the project
- - created the staff module
- - created the sales module
- - created the maintenance module
- - created the stocks module
- - created the losses module
- - created the vouchers module
- - created the complaints module
+
+
+?When clicked on the department button takes you to a new windows showing the following as seen on the windows bellow.
+
+
+
+This document will be updated

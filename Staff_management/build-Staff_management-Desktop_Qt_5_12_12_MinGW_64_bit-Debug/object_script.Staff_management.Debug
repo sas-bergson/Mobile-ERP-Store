@@ -1,0 +1,10 @@
+debug/department.o
+debug/jobs.o
+debug/main.o
+debug/mainwindow.o
+debug/shifts.o
+debug/qrc_assets.o
+debug/moc_department.o
+debug/moc_jobs.o
+debug/moc_mainwindow.o
+debug/moc_shifts.o

@@ -1,0 +1,10 @@
+release/department.o
+release/jobs.o
+release/main.o
+release/mainwindow.o
+release/shifts.o
+release/qrc_assets.o
+release/moc_department.o
+release/moc_jobs.o
+release/moc_mainwindow.o
+release/moc_shifts.o
