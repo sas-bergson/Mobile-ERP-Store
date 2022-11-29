@@ -1,0 +1,57 @@
+\hypertarget{shop_statistics_8cpp_source}{}\doxysection{shop\+Statistics.\+cpp}
+\label{shop_statistics_8cpp_source}\index{src/shopStatistics.cpp@{src/shopStatistics.cpp}}
+\mbox{\hyperlink{shop_statistics_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00001}00001 \textcolor{preprocessor}{\#include "{}../include/shopStatistics.h"{}}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00006}\mbox{\hyperlink{class_shop_statistic_a53c0ebfdbb3bb477ac7e4f66bc536b0a}{00006}} \mbox{\hyperlink{class_shop_statistic_a53c0ebfdbb3bb477ac7e4f66bc536b0a}{ShopStatistic::ShopStatistic}}()}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00007}00007              :shops()}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00008}00008 \{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00009}00009     \textcolor{comment}{// nothing}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00010}00010 \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00015}\mbox{\hyperlink{class_shop_statistic_ada882a7d8dc43b535b778e86dbdde23c}{00015}}   \mbox{\hyperlink{class_shop_statistic_ada882a7d8dc43b535b778e86dbdde23c}{ShopStatistic::\string~ShopStatistic}}()\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00016}00016     \textcolor{comment}{//nithing}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00017}00017   \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00024}\mbox{\hyperlink{class_shop_statistic_a13d4e8751d1c6319dd4dd43b29b669a7}{00024}}   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shop_statistic_a13d4e8751d1c6319dd4dd43b29b669a7}{ShopStatistic::instantiate\_data}}()\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00025}00025     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(1, \textcolor{stringliteral}{"{}Brainless"{}} , 890000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00026}00026     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(2, \textcolor{stringliteral}{"{}Caryam"{}} , 1000000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00027}00027     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(3, \textcolor{stringliteral}{"{}Dress For All"{}} , 72900000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00028}00028     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(4, \textcolor{stringliteral}{"{}Market"{}} , 5000000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00029}00029     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(5, \textcolor{stringliteral}{"{}Niki"{}} , 1000000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00030}00030     shops.insert(shops.begin(),\mbox{\hyperlink{class_shop}{Shop}}(6, \textcolor{stringliteral}{"{}Yaya"{}} , 2500000 , \textcolor{stringliteral}{"{}TATAH"{}}));}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00031}00031   \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00032}00032 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00037}\mbox{\hyperlink{class_shop_statistic_a07f230e710976e2f73f1f3967f74bbc2}{00037}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shop_statistic_a07f230e710976e2f73f1f3967f74bbc2}{ShopStatistic::sorting\_listOfShops\_in\_order\_of\_highest\_income}}()\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00038}00038     sort(shops.begin(), shops.end(), }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00039}00039     []( \mbox{\hyperlink{class_shop}{Shop}} \&shop\_a,  \mbox{\hyperlink{class_shop}{Shop}} \&shop\_b) -\/> \textcolor{keywordtype}{bool}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00040}00040 \{ }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00041}00041     return shop\_a.get\_shop\_income() > shop\_b.get\_shop\_income(); }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00042}00042 \});}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00043}00043 \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00049}\mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{00049}} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{ShopStatistic:: malls\_income}}()\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00050}00050    \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{malls\_income}}\{0\};}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00051}00051    \textcolor{keywordflow}{for} (\mbox{\hyperlink{class_shop}{Shop}} shop : shops)\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00052}00052     \mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{malls\_income}} += shop.get\_shop\_income();}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00053}00053    \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00054}00054 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00055}00055    \textcolor{keywordflow}{return} \mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{malls\_income}};}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00056}00056 \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00063}\mbox{\hyperlink{class_shop_statistic_ad97cba5155a1f50e6ec86f5a73f5822f}{00063}} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_shop_statistic_ad97cba5155a1f50e6ec86f5a73f5822f}{ShopStatistic::percentage\_composed\_income}}(\mbox{\hyperlink{class_shop}{Shop}} \& shop)\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00064}00064      \textcolor{keywordtype}{double} composed\_persentage\{0\};}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00065}00065      \textcolor{keywordtype}{string} say\{\textcolor{stringliteral}{"{}\% of mall income"{}}\};}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00066}00066      composed\_persentage = shop.\mbox{\hyperlink{class_shop_aa5b8e59e1fd05d87204ffb632bd4510a}{get\_shop\_income}}() / \mbox{\hyperlink{class_shop_statistic_a999f5a55f20a77fce5cc1cdd72669d76}{malls\_income}}() * 100;}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00067}00067 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00068}00068      \textcolor{keywordflow}{return} to\_string(composed\_persentage) + say;}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00069}00069 \} }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00070}00070 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00071}00071 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00076}\mbox{\hyperlink{class_shop_statistic_a6ee8c29475618c0b6a9063a2616a35d5}{00076}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shop_statistic_a6ee8c29475618c0b6a9063a2616a35d5}{ShopStatistic::print\_sytsem}}()\{   }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00077}00077     cout << \textcolor{stringliteral}{"{}Shop ID"{}} << setw(25) << \textcolor{stringliteral}{"{}Shop Name"{}} << setw(25) << \textcolor{stringliteral}{"{}Income(frans)"{}} << setw(25) << \textcolor{stringliteral}{"{}Shop Manager"{}} << endl;}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00078}00078 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00079}00079     \textcolor{keywordflow}{for} (\mbox{\hyperlink{class_shop}{Shop}} shop : shops)\{}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00080}00080 }
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00081}00081       cout << shop.get\_shop\_id() << setw(25) << shop.get\_shop\_name() << setw(25) << shop.get\_shop\_income()<< setw(25) << shop.get\_shop\_manager()<< setw(25)<< \textcolor{stringliteral}{"{}Which composed :"{}}<< \mbox{\hyperlink{class_shop_statistic_ad97cba5155a1f50e6ec86f5a73f5822f}{percentage\_composed\_income}}(shop) << endl;}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00082}00082     \}}
+\DoxyCodeLine{\Hypertarget{shop_statistics_8cpp_source_l00083}00083 \}}
+
+\end{DoxyCode}
