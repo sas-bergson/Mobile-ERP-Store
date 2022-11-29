@@ -5,6 +5,11 @@
 
 using namespace std;
 
+/**
+ * @class Article
+ * @brief This class holds the data used for an article to be used in class ArticleStatistic
+ * 
+ */
 class Article{
     private:
     int id;

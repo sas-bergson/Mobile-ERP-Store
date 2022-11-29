@@ -1,0 +1,40 @@
+\hypertarget{_article_statistic_8cpp_source}{}\doxysection{Article\+Statistic.\+cpp}
+\label{_article_statistic_8cpp_source}\index{src/ArticleStatistic.cpp@{src/ArticleStatistic.cpp}}
+\mbox{\hyperlink{_article_statistic_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00001}00001 \textcolor{preprocessor}{\#include "{}..\(\backslash\)include\(\backslash\)ArticleStatistic.h"{}}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00007}\mbox{\hyperlink{class_article_statistic_a928302c1895f9af2ae5fc5ee1c3970d6}{00007}} \mbox{\hyperlink{class_article_statistic_a928302c1895f9af2ae5fc5ee1c3970d6}{ArticleStatistic::ArticleStatistic}}()}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00008}00008                 :articles()}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00009}00009 \{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00010}00010     \textcolor{comment}{// nothing}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00011}00011 \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00012}00012 }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00017}\mbox{\hyperlink{class_article_statistic_a9ed371fd22591ba9a1e1c8147f37a0b6}{00017}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_article_statistic_a9ed371fd22591ba9a1e1c8147f37a0b6}{ArticleStatistic::intialize\_sample\_data}}()\{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00018}00018     articles.insert(articles.begin() ,\mbox{\hyperlink{class_article}{Article}}(1, \textcolor{stringliteral}{"{}food"{}}, \textcolor{stringliteral}{"{}yam"{}}, 34 , 90000));}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00019}00019     articles.insert(articles.begin() ,\mbox{\hyperlink{class_article}{Article}}(2, \textcolor{stringliteral}{"{}cann"{}}, \textcolor{stringliteral}{"{}coca"{}}, 60 , 200000));}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00020}00020     articles.insert(articles.begin() ,\mbox{\hyperlink{class_article}{Article}}(3, \textcolor{stringliteral}{"{}cann"{}}, \textcolor{stringliteral}{"{}fanta"{}}, 20 ,12000));}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00021}00021     articles.insert(articles.begin() ,\mbox{\hyperlink{class_article}{Article}}(4, \textcolor{stringliteral}{"{}groseries"{}}, \textcolor{stringliteral}{"{}bonbon"{}}, 50 , 10000));}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00022}00022     articles.insert(articles.begin() ,\mbox{\hyperlink{class_article}{Article}}(5, \textcolor{stringliteral}{"{}food"{}}, \textcolor{stringliteral}{"{}bread"{}}, 600 , 100000));}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00023}00023 \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00024}00024 }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00025}\mbox{\hyperlink{class_article_statistic_a83f02dcbe4bb787ecd6b0c14539ab6e2}{00025}} \mbox{\hyperlink{class_article_statistic_a83f02dcbe4bb787ecd6b0c14539ab6e2}{ArticleStatistic:: \string~ArticleStatistic}}()\{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00026}00026     articles.clear();}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00027}00027 \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00032}\mbox{\hyperlink{class_article_statistic_a7f0953d33a5949d7ea7744e5cad0b95f}{00032}} \textcolor{keywordtype}{void}  \mbox{\hyperlink{class_article_statistic_a7f0953d33a5949d7ea7744e5cad0b95f}{ArticleStatistic::print\_articles\_out}}()\{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00033}00033     cout << endl;}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00034}00034         cout << \textcolor{stringliteral}{"{}ID"{}}<< setw(20) << \textcolor{stringliteral}{"{}NAME"{}}<< setw(20)   << \textcolor{stringliteral}{"{}Q\_sold(units)"{}}<< setw(20) << \textcolor{stringliteral}{"{}REVENUE(FCFA)"{}}<<endl;}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00035}00035     \textcolor{keywordflow}{for} (\mbox{\hyperlink{class_article}{Article}} article : articles)\{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00036}00036         cout<< article.get\_article\_id()<< setw(20) << article.get\_article\_name()<< setw(20) << article.get\_num\_article\_sold()<< setw(20) << article.get\_revenue()<<endl;}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00037}00037     \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00038}00038 \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00043}\mbox{\hyperlink{class_article_statistic_ac884f479d3e7cbd7c5588bfa6a0638e8}{00043}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_article_statistic_ac884f479d3e7cbd7c5588bfa6a0638e8}{ArticleStatistic::sort\_articles\_in\_most\_revenue\_order}}()\{}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00044}00044    sort(articles.begin(), articles.end(), }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00045}00045     []( \mbox{\hyperlink{class_article}{Article}} \&a,  \mbox{\hyperlink{class_article}{Article}} \&b) -\/> \textcolor{keywordtype}{bool}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00046}00046 \{ }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00047}00047     return a.get\_revenue() > b.get\_revenue(); }
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00048}00048 \});}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00049}00049 \}}
+\DoxyCodeLine{\Hypertarget{_article_statistic_8cpp_source_l00050}00050 }
+
+\end{DoxyCode}

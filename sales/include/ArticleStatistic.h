@@ -1,7 +1,7 @@
 #ifndef ARTICLESTATISTICS_H
 #define ARTICLESTATISTICS_H
 
-#include "../include/article.h"
+#include "article.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -9,7 +9,11 @@
 #include <iomanip>
 
 using namespace std;
-
+/**
+ * @class ArticleStatistic
+ * @brief This class is used for the different article statistics that are provided.
+ * 
+ */
 class ArticleStatistic{
     private:
     
