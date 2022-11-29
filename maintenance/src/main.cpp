@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-  cout<<"I LIKE 3 Pepee and letters";
+  
   return 0;  
 }
 
