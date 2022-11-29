@@ -5,7 +5,8 @@
             "includePath": [
                 "/usr/include/c++/9",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/database/include"
+                "${workspaceFolder}/database/include",
+                "${workspaceFolder}/staff/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
