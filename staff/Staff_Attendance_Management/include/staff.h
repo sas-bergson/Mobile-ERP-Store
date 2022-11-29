@@ -3,7 +3,7 @@
 
 #include<iostream>
 #include <string.h>
-#include <sql>
+#include <sqlite3.h>
 
 using namespace std;
 class staff{
