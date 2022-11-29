@@ -29,17 +29,42 @@ using namespace std;
 ///
 ////////////////////////////////////////////////////////////
 class JobPosition{
-        protected:
-            int32_t id;
-            int32_t hourly_rate;
-            string title;
-            string  working_period;
-        public:
-            JobPosition(string title, string  working_period, int32_t hourly_rate);
-            int32_t get_id();
-            int32_t get_hourly_rate();
-            string get_title();
-            string get_working_period();
+    protected:
+        int32_t id;
+        int32_t hourly_rate;
+        string title;
+        string  working_period;
+    public:
+        JobPosition(string title, string  working_period, int32_t hourly_rate);
+        int32_t get_id();
+        int32_t get_hourly_rate();
+        string get_title();
+        string get_working_period();
+};
+
+class JobPositionDAO{
+    protected:
+        vector<JobPosition> records;
+    public:
+        virtual vector<JobPosition> getAllJobPositions() = 0;
+        virtual JobPosition getlJobPosition_by_Id() = 0;
+        virtual JobPosition getlJobPosition_by_Title() = 0;
+        virtual int32_t createJobPosition(JobPosition job);
+        virtual int32_t updateJobPosition(JobPosition job);
+        virtual int32_t deleteJobPosition(JobPosition job);
+};
+
+class JobPositionSqlite:JobPositionDAO{
+    protected:
+        string uri;
+    public:
+        JobPositionSqlite(string uri);
+       virtual vector<JobPosition> getAllJobPositions() = 0;
+        virtual JobPosition getlJobPosition_by_Id() = 0;
+        virtual JobPosition getlJobPosition_by_Title() = 0;
+        virtual int32_t createJobPosition(JobPosition job);
+        virtual int32_t updateJobPosition(JobPosition job);
+        virtual int32_t deleteJobPosition(JobPosition job);
 };
 
 #endif

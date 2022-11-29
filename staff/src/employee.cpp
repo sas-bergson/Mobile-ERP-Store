@@ -20,3 +20,32 @@ string Employee::get_name(){return this->name;}
 string Employee::get_gender(){return this->gender;}
 
 string Employee::get_address(){return this->address;}
+
+EmployeeSqlite::EmployeeSqlite(string uri):
+uri(uri){}
+
+vector<Employee> EmployeeSqlite::getAllEmployees(){
+    vector<Employee> records;
+    return records;
+}
+
+vector<Employee> EmployeeSqlite::getAllEmployees_by_Job(JobPosition job){
+    vector<Employee> records;
+    return records;
+}
+Employee EmployeeSqlite::getEmployee_by_Id(int32_t emp_id){
+    Employee emp;
+    return emp;
+}
+
+int32_t EmployeeSqlite::createEmployee(Employee emp){
+    return 0;
+}
+
+int32_t EmployeeSqlite::updateEmployee(Employee emp){
+     return 0;
+}
+
+int32_t EmployeeSqlite::deleteEmployee(Employee emp){
+     return 0;
+}

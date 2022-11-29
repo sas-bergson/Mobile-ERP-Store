@@ -40,6 +40,7 @@ class Employee{
             string  address;
             string  gender;
         public:
+            Employee();
             Employee(string name,int32_t age,string  gender,int32_t phone_nbr,string  address);
             int32_t get_id();
             int32_t get_age();
@@ -77,5 +78,23 @@ class EmployeeDAO{
             virtual int32_t deleteEmployee(Employee emp) = 0;
 };
 
+////////////////////////////////////////////////////////////
+/// \brief The EmployeeSQLite class is an implementation of EmployeeDAO for SQLite databases.
+///
+/// This class represents an Employee Data Access Object for SQLite
+/// The class can be used for providing and high level API for accessing various SQLite databases in an MVC architecture
+///
+class EmployeeSqlite:EmployeeDAO{
+        protected:
+            string uri;
+        public:
+            EmployeeSqlite(string uri);
+            vector<Employee> getAllEmployees();
+            vector<Employee> getAllEmployees_by_Job(JobPosition job);
+            Employee getEmployee_by_Id(int32_t emp);
+            int32_t createEmployee(Employee emp);
+            int32_t updateEmployee(Employee emp);
+            int32_t deleteEmployee(Employee emp);
+};
 
 #endif
