@@ -6,7 +6,6 @@ For now this module contains the following
 
 ?When clicked on the department button takes you to a new windows showing the following as seen on the windows bellow.
 
-![Capture d’écran (30)](https://user-images.githubusercontent.com/75366612/204422423-f02d1bd0-199b-43e5-801b-d4ef2490c39d.png)
-
+![Capture d’écran (32)](https://user-images.githubusercontent.com/75366612/204665978-238e4b09-4e7c-46ec-ac4e-4692b4767da7.png)
 
 This document will be updated
