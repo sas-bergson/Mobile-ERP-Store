@@ -1,7 +1,7 @@
 # Database module for ERP-Store
 
 ### Wed Nov 16, 14:10 initialized the structure of the database module
- - created all static repositories(assets, build, docs, include, lib, obj, src, tests ...)
+ - All static repositories(assets, build, docs, include, lib, obj, src, tests ...) created
  - initialized configuration for doxygen
 
  ### Wed Nov 16 16:00 initialized the API interface of the module
