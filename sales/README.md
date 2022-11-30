@@ -8,4 +8,4 @@ Tuesday Nov 29,22:30 documented the article statistics module
 
 .Clearly explained the functional requirements 
 
-Added the documentation of the code
+.Added the documentation of the code
