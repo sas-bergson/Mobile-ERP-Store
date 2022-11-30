@@ -35,6 +35,7 @@ class JobPosition{
         string title;
         string  working_period;
     public:
+        JobPosition();
         JobPosition(string title, string  working_period, int32_t hourly_rate);
         int32_t get_id();
         int32_t get_hourly_rate();
@@ -59,12 +60,25 @@ class JobPositionSqlite:JobPositionDAO{
         string uri;
     public:
         JobPositionSqlite(string uri);
-       virtual vector<JobPosition> getAllJobPositions() = 0;
-        virtual JobPosition getlJobPosition_by_Id() = 0;
-        virtual JobPosition getlJobPosition_by_Title() = 0;
-        virtual int32_t createJobPosition(JobPosition job);
-        virtual int32_t updateJobPosition(JobPosition job);
-        virtual int32_t deleteJobPosition(JobPosition job);
+        vector<JobPosition> getAllJobPositions();
+        JobPosition getJobPosition_by_Id(int32_t job_id);
+        JobPosition getJobPosition_by_Title(string job_title);
+        int32_t createJobPosition(JobPosition job);
+        int32_t updateJobPosition(JobPosition job);
+        int32_t deleteJobPosition(JobPosition job);
+};
+
+class JobPositionQtSqlite:JobPositionDAO{
+    protected:
+        string uri;
+    public:
+        JobPositionQtSqlite(string uri);
+        vector<JobPosition> getAllJobPositions();
+        JobPosition getJobPosition_by_Id(int32_t job_id);
+        JobPosition getJobPosition_by_Title(string job_title);
+        int32_t createJobPosition(JobPosition job);
+        int32_t updateJobPosition(JobPosition job);
+        int32_t deleteJobPosition(JobPosition job);
 };
 
 #endif

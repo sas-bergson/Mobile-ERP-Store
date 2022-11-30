@@ -7,6 +7,10 @@ It is used to manage staffs working hours, staff salaries and staff permissions.
 
     Daniel Moune (primary contributor)
 
+#### Nov 30 2022 04:24am, updated definition of EmployeeQtSqlite concrete class
+   - provided header for class EmployeeQtSqlite providing Qt support for Employees' table access 
+   - provided header for class JobPositionQtSqlite providing Qt support for JobPositions' table access
+
 #### Nov 29 2022 10:05am, completed implementation of EmployeeSqlite concrete class
    - provided code for the EmployeeSqlite methods
    - provided code for the JobPositionDAO header

@@ -79,7 +79,7 @@ class EmployeeDAO{
 };
 
 ////////////////////////////////////////////////////////////
-/// \brief The EmployeeSQLite class is an implementation of EmployeeDAO for SQLite databases.
+/// \brief The EmployeeSQLite class is an implementation of EmployeeDAO for SQLite databases using default SQLite C++ API.
 ///
 /// This class represents an Employee Data Access Object for SQLite
 /// The class can be used for providing and high level API for accessing various SQLite databases in an MVC architecture
@@ -91,7 +91,26 @@ class EmployeeSqlite:EmployeeDAO{
             EmployeeSqlite(string uri);
             vector<Employee> getAllEmployees();
             vector<Employee> getAllEmployees_by_Job(JobPosition job);
-            Employee getEmployee_by_Id(int32_t emp);
+            Employee getEmployee_by_Id(int32_t emp_id);
+            int32_t createEmployee(Employee emp);
+            int32_t updateEmployee(Employee emp);
+            int32_t deleteEmployee(Employee emp);
+};
+
+////////////////////////////////////////////////////////////
+/// \brief The EmployeeSQLiteQT class is an implementation of EmployeeDAO for SQLite databases using QT driver.
+///
+/// This class represents an Employee Data Access Object for SQLite accessed with Qt framework
+/// The class can be used for providing and high level API for accessing various SQLite databases in an MVC architecture
+///
+class EmployeeQtSqlite:EmployeeDAO{
+        protected:
+            string uri;
+        public:
+            EmployeeQtSqlite(string uri);
+            vector<Employee> getAllEmployees();
+            vector<Employee> getAllEmployees_by_Job(JobPosition job);
+            Employee getEmployee_by_Id(int32_t emp_id);
             int32_t createEmployee(Employee emp);
             int32_t updateEmployee(Employee emp);
             int32_t deleteEmployee(Employee emp);

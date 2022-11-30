@@ -49,3 +49,32 @@ int32_t EmployeeSqlite::updateEmployee(Employee emp){
 int32_t EmployeeSqlite::deleteEmployee(Employee emp){
      return 0;
 }
+
+EmployeeQtSqlite::EmployeeQtSqlite(string uri):
+uri(uri){}
+
+vector<Employee> EmployeeQtSqlite::getAllEmployees(){
+    vector<Employee> records;
+    return records;
+}
+
+vector<Employee> EmployeeQtSqlite::getAllEmployees_by_Job(JobPosition job){
+    vector<Employee> records;
+    return records;
+}
+Employee EmployeeQtSqlite::getEmployee_by_Id(int32_t emp_id){
+    Employee emp;
+    return emp;
+}
+
+int32_t EmployeeQtSqlite::createEmployee(Employee emp){
+    return 0;
+}
+
+int32_t EmployeeQtSqlite::updateEmployee(Employee emp){
+     return 0;
+}
+
+int32_t EmployeeQtSqlite::deleteEmployee(Employee emp){
+     return 0;
+}
