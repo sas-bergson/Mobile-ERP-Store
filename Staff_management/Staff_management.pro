@@ -10,22 +10,31 @@ CONFIG += c++11
 
 SOURCES += \
     department.cpp \
+    financial_department.cpp \
     jobs.cpp \
     main.cpp \
     mainwindow.cpp \
-    shifts.cpp
+    shifts.cpp \
+    update_department.cpp \
+    view_department.cpp
 
 HEADERS += \
     department.h \
+    financial_department.h \
     jobs.h \
     mainwindow.h \
-    shifts.h
+    shifts.h \
+    update_department.h \
+    view_department.h
 
 FORMS += \
     department.ui \
+    financial_department.ui \
     jobs.ui \
     mainwindow.ui \
-    shifts.ui
+    shifts.ui \
+    update_department.ui \
+    view_department.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
