@@ -39,5 +39,15 @@ void stats_mall::total(){
           cout<<"CFA";
 
 }
+void stats_mall::BM(){
+     // Loop to store largest REVENUE TO  s[0].rev
+for(i = 1;i < 12; ++i) {
+
+    if( s[0].rev <  s[i].rev)
+      s[0].rev = s[i].rev;
+  }
+
+  cout << endl << "Largest REVENUE FOR THE YEAR IS  = " << s[0].rev << "CFA";
+    }
 
 
