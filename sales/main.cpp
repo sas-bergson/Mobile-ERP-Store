@@ -5,10 +5,11 @@ using namespace std;
 
 int main()
 {
-    stats_mall shop;
-    shop.inputMR();
-    shop.total();
-
+    stats_mall MALL;
+    MALL.inputMR();
+    MALL.total();
+    MALL.BM();
+     MALL.SMall();                       
     return 0;
 }
 

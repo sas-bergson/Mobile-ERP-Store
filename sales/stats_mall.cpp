@@ -14,20 +14,19 @@ void stats_mall::inputMR()
     {
         s[i].shpID = i+1;
         cout << "For Month" << s[i].shpID << "," << endl;
-
         cout << "Enter Revenue of the   Mall for  Month: ";
         cin >> s[i].rev;
         cout << endl;
+
+
 
     }
 }
 
 void stats_mall::total(){
-
     Total=(s[i].rev + s[i+1].rev+ s[i+2].rev+ s[i+3].rev+ s[i+4].rev+ s[i+5].rev+ s[i+6].rev+ s[i+7].rev+ s[i+8].rev+ s[i+9].rev+ s[i+10].rev+ s[i+11].rev);
     AVG = (s[i].rev + s[i+1].rev+ s[i+2].rev+ s[i+3].rev+ s[i+4].rev+ s[i+5].rev+ s[i+6].rev+ s[i+7].rev+ s[i+8].rev+ s[i+9].rev+ s[i+10].rev+ s[i+11].rev)/12;
-    cout << "DATA BASE FOR Mall: " << endl;
-
+ cout << "DATA BASE FOR Mall: " << endl;
     // Displaying information
     for(int i = 0; i < 12; ++i)
     {
@@ -40,14 +39,23 @@ void stats_mall::total(){
 
 }
 void stats_mall::BM(){
-     // Loop to store largest REVENUE TO  s[0].rev
 for(i = 1;i < 12; ++i) {
 
     if( s[0].rev <  s[i].rev)
       s[0].rev = s[i].rev;
   }
 
-  cout << endl << "Largest REVENUE FOR THE YEAR IS  = " << s[0].rev << "CFA";
+  cout << endl << "THE LARGEST REVENUE FOR THE YEAR IS  = " << s[0].rev << "CFA";
     }
+  void stats_mall::SMall(){
+for(i=1;i < 12; ++i) {
+
+    if( s[0].rev >  s[i].rev)
+      s[0].rev = s[i].rev;
+  }
+
+  cout << endl << "SMALLEST REVENUE FOR THE YEAR IS  = " << s[0].rev << "CFA";
+    }
+
 
 

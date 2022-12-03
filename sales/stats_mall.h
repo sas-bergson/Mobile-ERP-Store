@@ -11,7 +11,6 @@ class stats_mall
         int i=0;
 
         struct shop{
-            char name[50];
             int shpID;
             float rev;
             } s[12];
@@ -19,9 +18,10 @@ class stats_mall
 
     public:
         stats_mall(); // constructor
-       void inputMR();  //input monthly revenue method
-        void total(); //
-
+       void inputMR();  //input month revenue method
+        void total(); //Get the total and average revenue for the year
+        void BM();
+        void SMall();
 
 
 
