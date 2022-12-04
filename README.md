@@ -1,3 +1,6 @@
+###STAFF MANAGEMENT MODULE
+###MANAGEMENT OF DEPARTMENTS AND JODS
+
 This module is in charge of managing the various department in an ERP-store and also the jobs related to this module.
 For now this module contains the following
 .The main windows, which have 3 buttons, which are for the departments,jobs and shifts.
