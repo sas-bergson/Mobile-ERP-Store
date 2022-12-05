@@ -1,5 +1,5 @@
-**STAFF MANAGEMENT MODULE**
-**MANAGEMENT OF DEPARTMENTS AND JODS**
+#STAFF MANAGEMENT MODULE
+##MANAGEMENT OF DEPARTMENTS AND JODS
 
 This module is in charge of managing the various department in an ERP-store and also the jobs related to this module.
 For now this module contains the following
