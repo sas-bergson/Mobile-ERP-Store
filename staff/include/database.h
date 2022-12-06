@@ -18,6 +18,8 @@ class SQLiteDatabase{
     public:
     /*----------CONSTRUCTORS--------------*/
         SQLiteDatabase();
+        SQLiteDatabase(string db_name);
+        SQLiteDatabase(string db_name, string db_version)
 
 
     /*----------MODIFIERS(GETTERS & SETTERS)--------------*/
