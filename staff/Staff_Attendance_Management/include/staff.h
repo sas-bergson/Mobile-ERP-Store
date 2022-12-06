@@ -17,5 +17,5 @@ class staff{
         }
 }
 
-#endif //Close header file
+#endif //STAFF_H
 //KERNYUY FOMO
