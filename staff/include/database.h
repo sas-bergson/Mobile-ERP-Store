@@ -33,7 +33,7 @@ class SQLiteDatabase{
         Employee fetchById(int id);
         vector<Employee> fetchAll();
         int remove(int id);
-
+        vector<Employee> search(string query);
 
      /*----------DESTRUCTORS--------------*/
         ~SQLiteDatabase();

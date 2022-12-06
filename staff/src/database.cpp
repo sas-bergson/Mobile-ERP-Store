@@ -31,7 +31,9 @@ Employee SQLiteDatabase::fetchById(int id){
 vector<Employee> SQLiteDatabase::fetchAll(){
 
 }
-
+vector<Employee> SQLiteDatabase::search(string query){
+    
+}
 int SQLiteDatabase::remove(int id){
 
 }
