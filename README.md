@@ -9,3 +9,10 @@ an AI-powered ERP System for small and middle-sized Store
  - created the losses module
  - created the vouchers module
  - created the complaints module
+
+ ### Sunday, Dec 4 Created folders under staff for staff management
+ - Added header files person.h, department.h, querySearch.h and quicksort.h
+
+### Monday, Dec 5 Database test implementation in project
+ - Working database api in project
+     
