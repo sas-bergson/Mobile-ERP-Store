@@ -16,10 +16,10 @@ SQLiteDatabase::~SQLiteDatabase(){
 
 }
 
-int SQLiteDatabase::open_database(){
+int SQLiteDatabase::open_database(string db_name){
 
 }
-int SQLiteDatabase::create(){
+int SQLiteDatabase::insert(Employee data){
 }
 
 Employee SQLiteDatabase::fetchByName(string name){
@@ -32,6 +32,6 @@ vector<Employee> SQLiteDatabase::fetchAll(){
 
 }
 
-int SQLiteDatabase::remove(strig id){
+int SQLiteDatabase::remove(int id){
 
 }

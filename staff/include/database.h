@@ -8,6 +8,7 @@ instructor: Engr. Daniel Moune
 
 #include<string>
 #include<vector>
+#include "employee.hpp"
 using namespace std;
 
 // template class of the SQLite Database class
@@ -26,11 +27,12 @@ class SQLiteDatabase{
 
 
     /*----------CLASS METHODS--------------*/
-        int open_databse(string name);
-        int create();
-        T fetch();
-        vector<T> fetchAll();
-        int remove();
+        int open_databse(string db_name);
+        int insert(Employee data);
+        Employee fetchByName(string name);
+        Employee fetchById(int id);
+        vector<Employee> fetchAll();
+        int remove(int id);
 
 
      /*----------DESTRUCTORS--------------*/
