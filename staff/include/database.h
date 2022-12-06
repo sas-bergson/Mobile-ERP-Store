@@ -28,6 +28,7 @@ class SQLiteDatabase{
         int create();
         T fetch();
         vector<T> fetchAll();
+        int remove();
 
 
      /*----------DESTRUCTORS--------------*/
