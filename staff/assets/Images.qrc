@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Assets">
+        <file>icons8_Find_User_Male_50px.png</file>
+        <file>icons8_Money_50px_1.png</file>
+        <file>icons8_Registration_50px.png</file>
+        <file>icons8_Remove_User_Male_50px.png</file>
+        <file>icons8_Request_Money_50px.png</file>
+        <file>Corporate Management.png</file>
+        <file>mainmenu.jpg</file>
+        <file>top_bar.png</file>
+        <file>personal_card.png</file>
+        <file>icons8_Add_User_Male_50px.png</file>
+        <file>id_card.png</file>
+        <file>cal.png</file>
+    </qresource>
+</RCC>
