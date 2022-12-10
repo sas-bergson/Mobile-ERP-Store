@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/Assets">
+        <file>grey1.jfif</file>
+        <file>421009e6bc9f3010b23d5aae602cea4d.jpg</file>
+        <file>7b551a9fb76ecffcd614039aafb8becc.jpg</file>
+        <file>152951-abstract-black-background-vector-illustration.jpg</file>
+        <file>Amazing-HD-Black-Wallpapers.jpg</file>
+        <file>gradient-1761190_1280.webp</file>
+        <file>images.jfif</file>
+        <file>6802.jpg</file>
+        <file>IMG-20221128-WA0052.jpg</file>
+        <file>IMG-20221128-WA0054.jpg</file>
+        <file>IMG-20221128-WA0050.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>7b551a9fb76ecffcd614039aafb8becc.jpg</file>
+    </qresource>
+</RCC>
