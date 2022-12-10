@@ -20,12 +20,13 @@ For now this module contains the following
 
 ![Capture d’écran (32)](https://user-images.githubusercontent.com/75366612/204665978-238e4b09-4e7c-46ec-ac4e-4692b4767da7.png)
 
-.This panel shows all the various departments in an ERP store as shown in the dabase.
+##This panel shows all the various departments in an ERP store as shown in the dabase.
 
 
+![Capture d’écran (37)](https://user-images.githubusercontent.com/75366612/206879863-99de09e1-9421-42dc-9dd8-b128872eca6b.png)
 
 
-.This  helps you to update the different departments
+##This  helps you to update the different departments
 ![Capture d’écran (35)](https://user-images.githubusercontent.com/75366612/204679735-f42d0a95-f4fa-49da-b370-4411c7302caf.png)
 
 #### December 11, 2022 00:40am,  Added informations in README file
