@@ -36,6 +36,7 @@
 	//function prototypes
 	void displaystock(); // 4.
 	void defaultstock();
+	void items(); // 1.
 	void search();
 	void exportfile();
 	void menu();
