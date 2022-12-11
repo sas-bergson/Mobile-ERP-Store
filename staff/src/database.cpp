@@ -62,13 +62,13 @@ static int callback(void* data, int argc, char** argv, char** azColName)
 }
   
 
-void insert()
+/* void insert()
 {
     sqlite3* DB;
     char* messaggeError;
     int exit = sqlite3_open("C:/Users/HP/Documents/GitHub/management/database/test.db", &DB);
     string query = "SELECT * FROM PERSON;";
- 
+
     cout << "STATE OF TABLE BEFORE INSERT" << endl;
 
     Person p;
@@ -135,4 +135,4 @@ void select ()
     }
   
     sqlite3_close(DB);
-}
+} */

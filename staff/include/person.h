@@ -2,10 +2,11 @@
 #define PERSON.H
 
 #include <string>
+#include <vector>
 
 
 class Person {
-    private:
+    protected:
         int personalID;
         std::string firstName;
         std::string lastName;
@@ -16,83 +17,42 @@ class Person {
         int salary;
         std::string address;
     public:
-        Person() {} 
-
-        Person(int id, std::string fName, std::string lName, double wHours, double cpHour, int ag, int sal, std::string ad) {
-            personalID = id;
-            firstName = fName;
-            lastName = lName;
-            workingHours = wHours;
-            costPerHour = cpHour;
-            age = ag;
-            salary = sal;
-            address = ad;
-
-        }
+        Person();
+        Person(int id, std::string fName, std::string lName, double wHours, double cpHour, int ag, int sal, std::string ad);
         
-        void Set_FirstName(std::string fName) {
-            firstName = fName;
-        }
+        int Get_PersonalID();
+        std::string Get_FirstName();
+        std::string Get_LastName();
+        double Get_WorkingHour();
+        double Get_CostPerHour();
+        int Get_age();
+        int Get_salary();
+        std::string Get_address();
 
-        void Set_LastName(std::string lName) {
-            lastName = lName;
-        } 
+};
 
-        void Set_WorkingHours(double wHours) {
-            workingHours = wHours;
-        }
+class PersonDAO {
+    protected:
+        std::vector<Person> records;
+    public:
+        virtual std::vector<Person> getAllPersons() = 0;
+        virtual Person getPerson_by_id(int per) = 0;
+        virtual int createPerson(Person per) = 0;
+        virtual int updatePerson(Person per) = 0;
+        virtual int deletePerson(Person per) = 0;  
+};
 
-        void Set_CostPerHour(double cpHour) {
-            costPerHour = cpHour;
-        }
 
-        void Set_age(int ag) {
-            age = ag;
-        }
-
-        void Set_salary(int sal) {
-            salary = sal;
-        }
-
-        void Set_address(std::string ad){
-            address = ad;
-        }
-
-        int Get_PersonalID() {
-            return personalID;
-        }
-
-        std::string Get_FirstName() {
-            return firstName;
-        }
-
-        std::string Get_LastName() {
-            return lastName;
-        }
-
-        double Get_SalaryPerYear(){
-            return workingHours * costPerHour * 52;
-        }
-
-        double Get_WorkingHour() {
-            return workingHours;
-        }
-
-        double Get_CostPerHour() {
-            return costPerHour;
-        }
-
-        int Get_age() {
-            return age;
-        }
-
-        int Get_salary() {
-            return salary;
-        }
-
-        std::string Get_address() {
-            return address;
-        }
+class PersonSqlite:PersonDAO {
+    protected:
+        std::string uri;
+    public:
+        PersonSqlite(std::string uri);
+        std::vector<Person> getAllPersons();
+        Person getPerson_by_id(int per_id);
+        int createPerson(Person per);
+        int updatePerson(Person per);
+        int deletePerson(Person per);  
 
 };
 
