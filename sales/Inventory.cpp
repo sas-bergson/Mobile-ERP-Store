@@ -28,6 +28,7 @@
 	int defaultamount;
 	int newamount;
 	int price[9];
+    int stock;
 	int subproductsnum[100];
 	int productsnum[100];
 	int newproductsnum[100];
@@ -45,12 +46,20 @@
 	void disstock();
 	void viewstock();
 	void addmoreproducts();
+    void InventoryList();
 
 	int main()
 	{
-		
+		std::cout << "current items in stock" << std::endl;
+        InventoryList();
 
 		return 0;
 	}
 
-	
+	void InventoryList() {
+        std::cout << "All The Following Items Are Still In Stock" << std::endl;
+        if(stock>0){
+                std::cout << "/* message */" << std::endl;
+        }
+        
+    }
