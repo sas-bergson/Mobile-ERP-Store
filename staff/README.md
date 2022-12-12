@@ -1,3 +1,8 @@
+![Screenshot (146)](https://user-images.githubusercontent.com/100780969/207173073-ac927951-bd61-4292-929a-76ac436fc30c.png)
+
+
+
+
 # Staff module for ERP-Store
 # Staff Attendance Team Directory:
 # STAFF ATTENDANCE MANAGEMENT SYSTEM
