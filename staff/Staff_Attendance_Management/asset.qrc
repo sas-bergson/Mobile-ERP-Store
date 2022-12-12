@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/assets"/>
+    <qresource prefix="/">
+        <file>assets/hero2.png</file>
+        <file>assets/Attendance-Monitoring560.png</file>
+        <file>assets/banner (1).jpg</file>
+        <file>assets/banner (2).jpg</file>
+        <file>assets/banner (3).jpg</file>
+        <file>assets/How-Does-the-Attendance-Management-System-Help-the-Employees (1).jpg</file>
+        <file>assets/plan.jpg</file>
+        <file>assets/spiral.jpg</file>
+        <file>assets/staff-attendance-01.png</file>
+        <file>assets/staff-attendance-new.png</file>
+    </qresource>
+</RCC>
