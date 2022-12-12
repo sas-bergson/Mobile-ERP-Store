@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>banner (1).jpg</file>
+        <file>banner (2).jpg</file>
+        <file>banner (3).jpg</file>
+        <file>arts.jpg</file>
+        <file>assets.qrc</file>
+        <file>Attendance-Monitoring560.png</file>
+        <file>hero2.png</file>
+        <file>How-Does-the-Attendance-Management-System-Help-the-Employees (1).jpg</file>
+        <file>money.jpg</file>
+        <file>plan.jpg</file>
+        <file>pngtree-business-management-atmosphere-business-ppt-background-image_260404.jpg</file>
+        <file>pngtree-financial-wealth-management-e-commerce-technology-banner-background-image_209847.jpg</file>
+        <file>spiral.jpg</file>
+        <file>staff-attendance-01.png</file>
+        <file>staff-attendance-new.png</file>
+    </qresource>
+    <qresource prefix="/assets"/>
+</RCC>
