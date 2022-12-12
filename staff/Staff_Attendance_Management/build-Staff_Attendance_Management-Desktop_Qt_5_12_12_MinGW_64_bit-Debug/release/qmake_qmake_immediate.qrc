@@ -1,0 +1,18 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="database/Staff.db">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/database/Staff.db</file>
+<file alias="assets/arts.jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/arts.jpg</file>
+<file alias="assets/assets.qrc">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/assets.qrc</file>
+<file alias="assets/Attendance-Monitoring560.png">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/Attendance-Monitoring560.png</file>
+<file alias="assets/banner (1).jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/banner (1).jpg</file>
+<file alias="assets/banner (2).jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/banner (2).jpg</file>
+<file alias="assets/banner (3).jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/banner (3).jpg</file>
+<file alias="assets/hero2.png">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/hero2.png</file>
+<file alias="assets/How-Does-the-Attendance-Management-System-Help-the-Employees (1).jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/How-Does-the-Attendance-Management-System-Help-the-Employees (1).jpg</file>
+<file alias="assets/money.jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/money.jpg</file>
+<file alias="assets/plan.jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/plan.jpg</file>
+<file alias="assets/spiral.jpg">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/spiral.jpg</file>
+<file alias="assets/staff-attendance-01.png">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/staff-attendance-01.png</file>
+<file alias="assets/staff-attendance-new.png">C:/Users/LENOVO/Desktop/Class Works/C++ QT/Accounting-App/Mobile-ERP-Store/staff/Staff_Attendance_Management/assets/staff-attendance-new.png</file>
+</qresource>
+</RCC>
