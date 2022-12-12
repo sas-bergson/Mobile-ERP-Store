@@ -2,13 +2,22 @@
 #include "../include/report.h"
 #include <string>
 #include <iostream>
+#include <ctime>
+#include "../database/include/sqlite3.h"
+#include "../include/database.cpp"
 
 using namespace std;
 
-void Report::reportdetail(){
-    cout<<"sold :"<< endl;
-    for(int i=0; i< 4; i++){
-        cout<< qu[i] << " quantity of "<< pr[i]<< " sold today "<< endl;
-    }
+void Report::report_order_number(){
+
+    // current date/time according to system
+    time_t now =time(0);
+
+    tm *ltm = localtime(&now);
+ 
+    count = database::count_select_data(ltm->tm_mday)
+    cout<< count << " orders were made today "<<endl; 
+   
 }
+
 

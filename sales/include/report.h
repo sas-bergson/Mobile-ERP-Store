@@ -1,4 +1,5 @@
 #include <string>
+#include <vector>
 #ifndef REPORT_H
 #define REPORT_H
 
@@ -7,10 +8,11 @@ using namespace std;
 
 class Report{
     public:
-        string pr[4] = {"chairs","Televisions","tables","radios"};
-        int qu[4] = {10,42,43,104};
+        int count;
+        vector<int> user_id;
+        
     public:
-        void reportdetail();
+        void report_order_number();
 };
 
 #endif

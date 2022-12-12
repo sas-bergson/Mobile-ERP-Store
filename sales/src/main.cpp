@@ -8,16 +8,22 @@
 #include <iostream>
 #include <string>
 #include "../lib/report.cpp"
+#include "../database/src/database.cpp"
 
 
 using namespace std;
 
 int main(){
 
-// sms object of report class
+    // class objects
     Report sms;
+    database sqlite;
 
-    sms.reportdetail();
+
+    sqlite.create_database();
+    sqlite.create_table();
+    sqlite.insert_data();
+    sms.report_order_number();
 
     return 0;
 
