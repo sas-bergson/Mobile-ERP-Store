@@ -1,0 +1,12 @@
+release/AdminWindow.o
+release/CreateEmp.o
+release/CreateLogin.o
+release/DeleteEmployee.o
+release/Employee.o
+release/EmployeeTraining.o
+release/PromoteDemote.o
+release/QuitDialog.o
+release/User.o
+release/ViewEmployees.o
+release/main.o
+release/MainWindow.o

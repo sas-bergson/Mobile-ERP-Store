@@ -1,0 +1,12 @@
+debug/AdminWindow.o
+debug/CreateEmp.o
+debug/CreateLogin.o
+debug/DeleteEmployee.o
+debug/Employee.o
+debug/EmployeeTraining.o
+debug/PromoteDemote.o
+debug/QuitDialog.o
+debug/User.o
+debug/ViewEmployees.o
+debug/main.o
+debug/MainWindow.o
