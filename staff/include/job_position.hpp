@@ -12,12 +12,17 @@
 // purpose.  It is provided "as is" without express or implied warranty.
 //
 ////////////////////////////////////////////////////////////
+# pragma once
 #ifndef JOBPOSITION_H
 #define JOBPOSITION_H
 
 #include <string>
+#include <iostream>
 #include <sstream>
 #include <vector>
+#include <sqlite3.h>
+
+#include "callback.hpp"
 
 using namespace std;
 
@@ -36,49 +41,76 @@ class JobPosition{
         string  working_period;
     public:
         JobPosition();
-        JobPosition(string title, string  working_period, int32_t hourly_rate);
+        JobPosition(int id, const char* title, const char*  working_period, int hourly_rate);
+        JobPosition(int32_t id, string title, string  working_period, int32_t hourly_rate);
+        JobPosition(char** azCols);
+        JobPosition(const JobPosition& job);
         int32_t get_id();
         int32_t get_hourly_rate();
         string get_title();
         string get_working_period();
+        bool operator==(const JobPosition &obj);
+        friend std::ostream &operator << (std::ostream &os, const JobPosition &obj);
 };
-
+////////////////////////////////////////////////////////////
+/// \brief The JobPositionDAO class is designed to encapsulate management of Job Positions records in the database.
+///
+/// This class represents a Job Position Data Access Object
+/// The class can be used for providing and high level API for accessing various data sources in an MVC architecture
+///
+/// JobPositionDAO class provides the following services:
+///     + getAllJobPositions               -- collects all JobPositions records from the database and returns them as a list
+///     + getJobPosition_by_Id           -- collects a single JobPosition record in the database and returns an JobPosition Object
+///     + createTableJobPosition       -- creates the JobPosition table in the database
+///     + createJobPosition                -- drops the JobPosition table in the database
+///     + createJobPosition                -- creates a single JobPosition record in the database from an JobPosition Object
+///     + updateJobPosition               -- updates a single JobPosition record in the database from an JobPosition Object
+///     + deleteJobPosition                -- deletes a single JobPosition record in the database from an JobPosition Object
+///
+////////////////////////////////////////////////////////////
 class JobPositionDAO{
-    protected:
-        vector<JobPosition> records;
     public:
-        virtual vector<JobPosition> getAllJobPositions() = 0;
-        virtual JobPosition getlJobPosition_by_Id() = 0;
-        virtual JobPosition getlJobPosition_by_Title() = 0;
-        virtual int32_t createJobPosition(JobPosition job);
-        virtual int32_t updateJobPosition(JobPosition job);
-        virtual int32_t deleteJobPosition(JobPosition job);
+        virtual bool tableExists()=0;
+        virtual bool tableContains(JobPosition job_p)=0;
+        virtual int32_t createTable() = 0;
+        virtual int32_t dropTable() = 0;
+        virtual int32_t getAllJobPositions(vector<JobPosition>* job_p_v) = 0;
+        virtual int32_t getJobPosition_by_Id(int32_t job_id, JobPosition* job_p) = 0;
+        virtual int32_t createJobPosition(JobPosition job_p)=0;
+        virtual int32_t updateJobPosition(JobPosition job_p)=0;
+        virtual int32_t deleteJobPosition(JobPosition job_p)=0;
 };
 
 class JobPositionSqlite:JobPositionDAO{
     protected:
         string uri;
     public:
+        bool tableExists();
+        bool tableContains(JobPosition job_p);
+        int32_t createTable();
+        int32_t dropTable();
         JobPositionSqlite(string uri);
-        vector<JobPosition> getAllJobPositions();
-        JobPosition getJobPosition_by_Id(int32_t job_id);
-        JobPosition getJobPosition_by_Title(string job_title);
-        int32_t createJobPosition(JobPosition job);
-        int32_t updateJobPosition(JobPosition job);
-        int32_t deleteJobPosition(JobPosition job);
+        int32_t getAllJobPositions(vector<JobPosition>* job_p_v);
+        int32_t getJobPosition_by_Id(int32_t job_id, JobPosition* job_p);
+        int32_t createJobPosition(JobPosition job_p);
+        int32_t updateJobPosition(JobPosition job_p);
+        int32_t deleteJobPosition(JobPosition job_p);
 };
 
 class JobPositionQtSqlite:JobPositionDAO{
     protected:
         string uri;
     public:
+        bool tableExists();
+        bool tableContains(JobPosition job_p);
+        int32_t createTable();
+        int32_t dropTable();
         JobPositionQtSqlite(string uri);
-        vector<JobPosition> getAllJobPositions();
-        JobPosition getJobPosition_by_Id(int32_t job_id);
-        JobPosition getJobPosition_by_Title(string job_title);
-        int32_t createJobPosition(JobPosition job);
-        int32_t updateJobPosition(JobPosition job);
-        int32_t deleteJobPosition(JobPosition job);
+        int32_t getAllJobPositions(vector<JobPosition>* job_p_v);
+        int32_t getJobPosition_by_Id(int32_t job_id, JobPosition* job_p);
+        int32_t createJobPosition(JobPosition job_p);
+        int32_t updateJobPosition(JobPosition job_p);
+        int32_t deleteJobPosition(JobPosition job_p);
 };
 
 #endif
