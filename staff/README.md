@@ -15,7 +15,3 @@ It is used to manage staffs working hours, staff salaries and staff permissions.
    - creation of the employee's model class
    - creation of the employee's DAO abstract class
    - creation of the job position's model class
-
-#### Nov 29 2022 02:30am, Added informations in README file
-   - removed unecessary informations in readme
-   - added commits logs and history
