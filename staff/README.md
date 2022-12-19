@@ -14,4 +14,7 @@ It is used to manage staffs working hours, staff salaries and staff permissions.
 #### Nov 29 2022 06:30am, completed construction of Employee and Job Position header files
    - creation of the employee's model class
    - creation of the employee's DAO abstract class
+   <<<<<<< baimamboukar_staff_management
    - creation of the job position's model class
+   - creation of the job position's model class
+   >>>>>>> staff-managenent
