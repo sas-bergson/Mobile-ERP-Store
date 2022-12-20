@@ -7,6 +7,10 @@ It is used to manage staffs working hours, staff salaries and staff permissions.
 
     Daniel Moune (primary contributor)
 
+#### Dec 18 2022 05:10am, completed CRUD service for JobPositionSqlite raw API
+   - provided header for class EmployeeQtSqlite providing Qt support for Employees' table access 
+   - provided header for class JobPositionQtSqlite providing Qt support for JobPositions' table access
+
 #### Nov 30 2022 04:24am, updated definition of EmployeeQtSqlite concrete class
    - provided header for class EmployeeQtSqlite providing Qt support for Employees' table access 
    - provided header for class JobPositionQtSqlite providing Qt support for JobPositions' table access
