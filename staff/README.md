@@ -1,21 +1,29 @@
-![Capture d’écran (23)](https://user-images.githubusercontent.com/117815821/203166040-0ace1e2a-75c8-4a2b-b5b1-c7ef552d7d9f.png)
+# UserLoginApp
+Simple app with SQLITE backend for user manipulation
 
+This app demonstarte how we can use SQLITE database as a backend for our QML application by using LocalStorage module from Qt.
 
+This demo app has following feature implemented.
+* User registration
+* User login
+* Password retrievel
 
+Icons used in this app are from Font Awesome [http://fontawesome.io/icons/]
 
+Screenshots:
 
-![Capture d’écran (24)](https://user-images.githubusercontent.com/117815821/203166086-e153d22c-72da-404d-87f9-8b850f5eefd5.png)
+LogIn Screen:
 
+![alt tag](https://cloud.githubusercontent.com/assets/4667704/22109493/fddb32fa-de7d-11e6-93b6-17606b251563.png)
 
+Register Screen:
 
+![alt tag](https://cloud.githubusercontent.com/assets/4667704/22109491/fdd3f56c-de7d-11e6-8aef-7a35ec190692.png)
 
+Password Reset Screen:
 
-![Capture d’écran (25)](https://user-images.githubusercontent.com/117815821/203166124-2630ec1e-9f2d-41d5-941c-2cd38fc750c1.png)
+![alt tag](https://cloud.githubusercontent.com/assets/4667704/22109490/fdd2478a-de7d-11e6-9b60-7729bf8414cb.png)
 
+UserInfo Screen:
 
-
-
-
-QT MOBILE APP FOR EMPLOYEE MANAGEMENT
-
-USES SQLITE DATABASE![Capture d’écran (25)](https://user-images.githubusercontent.com/117815821/203166294-1f41eb13-7947-4e9d-ab70-dc544c31e316.png)
+![alt tag](https://cloud.githubusercontent.com/assets/4667704/22109492/fdd907b4-de7d-11e6-87b8-533deda255a4.png)
