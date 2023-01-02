@@ -1,7 +1,7 @@
 # Employees 
 Simple app with SQLITE backend for user manipulation
 
-This app demonstarte how we can use SQLITE database as a backend for our QML mobile application by using LocalS.
+This app demonstarte how we can use SQLITE database as a backend for our QML mobile application .
 Screenshots:
 
 Menu:
