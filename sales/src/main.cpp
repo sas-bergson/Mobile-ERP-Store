@@ -1,7 +1,7 @@
 #include "form.cpp"
 
-int main(){
+int main()
+{
     form form;
     form.get_data();
-    form.show_data();
  }

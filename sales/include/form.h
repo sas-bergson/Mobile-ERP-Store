@@ -13,22 +13,30 @@ class form{
      * 
      */
     private:
-      string cust_name;
-      string cust_phone;
       string prod_name;
       string prod_ID;
       int quantity;
       string category;
-      float unit_p;
-      float total;
-      float disc;
-      float amt_paied;
+      int unit_p;
+      int total;
+      int disc;
+      int amt_paied;
+      int status;
+      char pay_method;
       string date;
+      int bal;
+      int amt_p;
+      int choise;
 
     public:
 
       form() = default;
       ~form();
       void get_data();
-      void show_data();
+      void complete_pay();
+      void partial_pay();
+      void complete_R();
+      void partial_R();
+      void fetch_data();
+      void save_receipt();
 };
