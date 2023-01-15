@@ -1,0 +1,53 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Blob\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Field Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Constructor \& Destructor Documentation}{6}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}BlobField()}{6}{subsubsection.3.1.1.1}%
+\contentsline {section}{\numberline {3.2}Database Class Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{7}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Field Class Reference}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}fts5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}api Struct Reference}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}fts5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tokenizer Struct Reference}{9}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Fts5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Extension\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Api Struct Reference}{9}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Fts5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Phrase\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iter Struct Reference}{10}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Integer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Field Class Reference}{10}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Constructor \& Destructor Documentation}{11}{subsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.1}IntegerField()}{11}{subsubsection.3.8.1.1}%
+\contentsline {section}{\numberline {3.9}Numeric\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Field Class Reference}{11}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Constructor \& Destructor Documentation}{12}{subsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.1.1}NumericField()}{12}{subsubsection.3.9.1.1}%
+\contentsline {section}{\numberline {3.10}Query Class Reference}{13}{section.3.10}%
+\contentsline {section}{\numberline {3.11}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}file Struct Reference}{13}{section.3.11}%
+\contentsline {section}{\numberline {3.12}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}constraint Struct Reference}{14}{section.3.12}%
+\contentsline {section}{\numberline {3.13}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}constraint\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}usage Struct Reference}{14}{section.3.13}%
+\contentsline {section}{\numberline {3.14}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info Struct Reference}{14}{section.3.14}%
+\contentsline {section}{\numberline {3.15}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}index\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}orderby Struct Reference}{15}{section.3.15}%
+\contentsline {section}{\numberline {3.16}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}io\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}methods Struct Reference}{15}{section.3.16}%
+\contentsline {section}{\numberline {3.17}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mem\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}methods Struct Reference}{16}{section.3.17}%
+\contentsline {section}{\numberline {3.18}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}module Struct Reference}{16}{section.3.18}%
+\contentsline {section}{\numberline {3.19}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mutex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}methods Struct Reference}{17}{section.3.19}%
+\contentsline {section}{\numberline {3.20}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcache\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}methods Struct Reference}{17}{section.3.20}%
+\contentsline {section}{\numberline {3.21}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcache\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}methods2 Struct Reference}{17}{section.3.21}%
+\contentsline {section}{\numberline {3.22}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcache\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}page Struct Reference}{18}{section.3.22}%
+\contentsline {section}{\numberline {3.23}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rtree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}geometry Struct Reference}{18}{section.3.23}%
+\contentsline {section}{\numberline {3.24}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rtree\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}query\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info Struct Reference}{19}{section.3.24}%
+\contentsline {section}{\numberline {3.25}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}snapshot Struct Reference}{19}{section.3.25}%
+\contentsline {section}{\numberline {3.26}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}vfs Struct Reference}{19}{section.3.26}%
+\contentsline {section}{\numberline {3.27}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}vtab Struct Reference}{20}{section.3.27}%
+\contentsline {section}{\numberline {3.28}sqlite3\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}vtab\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cursor Struct Reference}{21}{section.3.28}%
+\contentsline {section}{\numberline {3.29}Sqlite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}db Class Reference}{22}{section.3.29}%
+\contentsline {subsection}{\numberline {3.29.1}Detailed Description}{23}{subsection.3.29.1}%
+\contentsline {subsection}{\numberline {3.29.2}Constructor \& Destructor Documentation}{23}{subsection.3.29.2}%
+\contentsline {subsubsection}{\numberline {3.29.2.1}Sqlite\_db()}{23}{subsubsection.3.29.2.1}%
+\contentsline {section}{\numberline {3.30}Sqlite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Table Class Reference}{24}{section.3.30}%
+\contentsline {subsection}{\numberline {3.30.1}Constructor \& Destructor Documentation}{24}{subsection.3.30.1}%
+\contentsline {subsubsection}{\numberline {3.30.1.1}SqliteTable()}{25}{subsubsection.3.30.1.1}%
+\contentsline {section}{\numberline {3.31}Table Class Reference}{26}{section.3.31}%
+\contentsline {section}{\numberline {3.32}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Field Class Reference}{27}{section.3.32}%
+\contentsline {subsection}{\numberline {3.32.1}Constructor \& Destructor Documentation}{27}{subsection.3.32.1}%
+\contentsline {subsubsection}{\numberline {3.32.1.1}TextField()}{28}{subsubsection.3.32.1.1}%
+\contentsline {chapter}{Index}{29}{section*.68}%

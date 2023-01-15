@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_database.html" title="The Database class is an abstract class supposed to encapsulate management of SQL based database syst..." alt="" coords="5,5,89,32"/>
+<area shape="rect" id="node2" href="$class_sqlite__db.html" title="The Database class encapsulates management of SQLite databases." alt="" coords="137,5,220,32"/>
+</map>

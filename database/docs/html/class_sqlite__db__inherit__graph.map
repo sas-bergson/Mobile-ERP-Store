@@ -1,0 +1,4 @@
+<map id="Sqlite_db" name="Sqlite_db">
+<area shape="rect" id="node1" title="The Database class encapsulates management of SQLite databases." alt="" coords="6,80,89,107"/>
+<area shape="rect" id="node2" href="$class_database.html" title="The Database class is an abstract class supposed to encapsulate management of SQL based database syst..." alt="" coords="5,5,89,32"/>
+</map>
