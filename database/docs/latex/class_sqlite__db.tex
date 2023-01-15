@@ -1,0 +1,96 @@
+\hypertarget{class_sqlite__db}{}\doxysection{Sqlite\+\_\+db Class Reference}
+\label{class_sqlite__db}\index{Sqlite\_db@{Sqlite\_db}}
+
+
+The \mbox{\hyperlink{class_database}{Database}} class encapsulates management of SQLite databases.  
+
+
+
+
+{\ttfamily \#include $<$sqlite\+\_\+database.\+hpp$>$}
+
+
+
+Inheritance diagram for Sqlite\+\_\+db\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{class_sqlite__db__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sqlite\+\_\+db\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{class_sqlite__db__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sqlite__db_a324102dc1f5be7fae208b1a765f08be7}\label{class_sqlite__db_a324102dc1f5be7fae208b1a765f08be7}} 
+\mbox{\hyperlink{class_sqlite__db_a324102dc1f5be7fae208b1a765f08be7}{Sqlite\+\_\+db}} ()
+\begin{DoxyCompactList}\small\item\em default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_sqlite__db_a243fed2179f525802cd259e2ae88058b}{Sqlite\+\_\+db}} (string name, string uri, Database\+Type type=SQLite\+\_\+db)
+\begin{DoxyCompactList}\small\item\em Parameterized constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sqlite__db_ac3402f706004420171b4acbf95c91544}\label{class_sqlite__db_ac3402f706004420171b4acbf95c91544}} 
+\mbox{\hyperlink{class_sqlite__db_ac3402f706004420171b4acbf95c91544}{$\sim$\+Sqlite\+\_\+db}} ()
+\begin{DoxyCompactList}\small\item\em destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sqlite__db_afe925b8c50906662dfd7dfe68e215e4b}\label{class_sqlite__db_afe925b8c50906662dfd7dfe68e215e4b}} 
+virtual string {\bfseries get\+\_\+uri} ()
+\item 
+\mbox{\Hypertarget{class_sqlite__db_a14ec31da38d72f201ffc0e5cf0351741}\label{class_sqlite__db_a14ec31da38d72f201ffc0e5cf0351741}} 
+virtual string {\bfseries get\+\_\+name} ()
+\item 
+\mbox{\Hypertarget{class_sqlite__db_a4c4cde22f4bbb832b248bffaa565ea0b}\label{class_sqlite__db_a4c4cde22f4bbb832b248bffaa565ea0b}} 
+virtual Database\+Type {\bfseries get\+\_\+type} ()
+\item 
+\mbox{\Hypertarget{class_sqlite__db_a8b19b4c50b4ebce0890ff34eb0230f20}\label{class_sqlite__db_a8b19b4c50b4ebce0890ff34eb0230f20}} 
+virtual int32\+\_\+t {\bfseries create} ()
+\item 
+\mbox{\Hypertarget{class_sqlite__db_a3df2944a7c244147c562b13b366d6aac}\label{class_sqlite__db_a3df2944a7c244147c562b13b366d6aac}} 
+virtual int32\+\_\+t {\bfseries drop} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_database}{Database}} class encapsulates management of SQLite databases. 
+
+This class represents Sqlite databases
+
+SQLite\+Database abstract class provides the following services
+\begin{DoxyItemize}
+\item create -- creates the database in the DB management systems
+\item drop -- drops the database in the DB management systems 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_sqlite__db_a243fed2179f525802cd259e2ae88058b}\label{class_sqlite__db_a243fed2179f525802cd259e2ae88058b}} 
+\index{Sqlite\_db@{Sqlite\_db}!Sqlite\_db@{Sqlite\_db}}
+\index{Sqlite\_db@{Sqlite\_db}!Sqlite\_db@{Sqlite\_db}}
+\doxysubsubsection{\texorpdfstring{Sqlite\_db()}{Sqlite\_db()}}
+{\footnotesize\ttfamily Sqlite\+\_\+db\+::\+Sqlite\+\_\+db (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{uri,  }\item[{Database\+Type}]{type = {\ttfamily SQLite\+\_\+db} }\end{DoxyParamCaption})}
+
+
+
+Parameterized constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of one of the database \\
+\hline
+{\em uri} & location of the database in the system \\
+\hline
+{\em Database\+Type} & this is the type of the database (default value is \mbox{\hyperlink{class_sqlite__db}{Sqlite\+\_\+db}}) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/sqlite\+\_\+database.\+hpp\end{DoxyCompactItemize}

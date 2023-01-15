@@ -1,0 +1,72 @@
+\hypertarget{class_database}{}\doxysection{Database Class Reference}
+\label{class_database}\index{Database@{Database}}
+
+
+The \mbox{\hyperlink{class_database}{Database}} class is an abstract class supposed to encapsulate management of SQL based database systems.  
+
+
+
+
+{\ttfamily \#include $<$database.\+hpp$>$}
+
+
+
+Inheritance diagram for Database\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{class_database__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_a75f25bc90ade11158ee45fe212e9d4f3}\label{class_database_a75f25bc90ade11158ee45fe212e9d4f3}} 
+virtual string {\bfseries get\+\_\+uri} ()=0
+\item 
+\mbox{\Hypertarget{class_database_ac1c60243e0b9f0a56e760562a638ab9e}\label{class_database_ac1c60243e0b9f0a56e760562a638ab9e}} 
+virtual string {\bfseries get\+\_\+name} ()=0
+\item 
+\mbox{\Hypertarget{class_database_ab11e40cbcf81cd11e58d6adf20af48a8}\label{class_database_ab11e40cbcf81cd11e58d6adf20af48a8}} 
+virtual Database\+Type {\bfseries get\+\_\+type} ()=0
+\item 
+\mbox{\Hypertarget{class_database_ac646d2a3fef3516614194a619b030640}\label{class_database_ac646d2a3fef3516614194a619b030640}} 
+virtual int32\+\_\+t {\bfseries create} ()=0
+\item 
+\mbox{\Hypertarget{class_database_a420738473648f02abf2ea54c07cebc0d}\label{class_database_a420738473648f02abf2ea54c07cebc0d}} 
+virtual int32\+\_\+t {\bfseries drop} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_af5f2485ff71ae19c8e80ade98d9d4818}\label{class_database_af5f2485ff71ae19c8e80ade98d9d4818}} 
+string {\bfseries name}
+\item 
+\mbox{\Hypertarget{class_database_a5f1d0e9074320af261949befdef0ffa1}\label{class_database_a5f1d0e9074320af261949befdef0ffa1}} 
+string {\bfseries uri}
+\item 
+\mbox{\Hypertarget{class_database_a0e5271a70ac3156f2acc2086da722e20}\label{class_database_a0e5271a70ac3156f2acc2086da722e20}} 
+Database\+Type {\bfseries type}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_database}{Database}} class is an abstract class supposed to encapsulate management of SQL based database systems. 
+
+This class represents database systems using SQL as definition and manipulation language. The class can be used as model for Object-\/\+Relational-\/\+Mapping in an MVC architecture The currently supported database systems are
+\begin{DoxyItemize}
+\item Sqlite
+\item My\+Sql,
+\item Post\+Gre\+Sql
+\end{DoxyItemize}
+
+\mbox{\hyperlink{class_database}{Database}} abstract class provides the following services
+\begin{DoxyItemize}
+\item create -- creates the database in the DB management systems
+\item drop -- drops the database in the DB management systems 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/database.\+hpp\end{DoxyCompactItemize}
