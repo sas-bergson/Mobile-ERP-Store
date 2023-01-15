@@ -1,0 +1,65 @@
+\begin{theindex}
+
+  \item {BlobField}, \hyperpage{5}
+    \subitem {BlobField}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Database}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Field}, \hyperpage{8}
+  \item {fts5\_api}, \hyperpage{8}
+  \item {fts5\_tokenizer}, \hyperpage{9}
+  \item {Fts5ExtensionApi}, \hyperpage{9}
+  \item {Fts5PhraseIter}, \hyperpage{10}
+
+  \indexspace
+
+  \item {IntegerField}, \hyperpage{10}
+    \subitem {IntegerField}, \hyperpage{11}
+
+  \indexspace
+
+  \item {NumericField}, \hyperpage{11}
+    \subitem {NumericField}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Query}, \hyperpage{13}
+
+  \indexspace
+
+  \item {sqlite3\_file}, \hyperpage{13}
+  \item {sqlite3\_index\_info}, \hyperpage{14}
+  \item {sqlite3\_index\_info::sqlite3\_index\_constraint}, 
+		\hyperpage{14}
+  \item {sqlite3\_index\_info::sqlite3\_index\_constraint\_usage}, 
+		\hyperpage{14}
+  \item {sqlite3\_index\_info::sqlite3\_index\_orderby}, \hyperpage{15}
+  \item {sqlite3\_io\_methods}, \hyperpage{15}
+  \item {sqlite3\_mem\_methods}, \hyperpage{16}
+  \item {sqlite3\_module}, \hyperpage{16}
+  \item {sqlite3\_mutex\_methods}, \hyperpage{17}
+  \item {sqlite3\_pcache\_methods}, \hyperpage{17}
+  \item {sqlite3\_pcache\_methods2}, \hyperpage{17}
+  \item {sqlite3\_pcache\_page}, \hyperpage{18}
+  \item {sqlite3\_rtree\_geometry}, \hyperpage{18}
+  \item {sqlite3\_rtree\_query\_info}, \hyperpage{19}
+  \item {sqlite3\_snapshot}, \hyperpage{19}
+  \item {sqlite3\_vfs}, \hyperpage{19}
+  \item {sqlite3\_vtab}, \hyperpage{20}
+  \item {sqlite3\_vtab\_cursor}, \hyperpage{21}
+  \item {Sqlite\_db}, \hyperpage{22}
+    \subitem {Sqlite\_db}, \hyperpage{23}
+  \item {SqliteTable}, \hyperpage{24}
+    \subitem {SqliteTable}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Table}, \hyperpage{26}
+  \item {TextField}, \hyperpage{27}
+    \subitem {TextField}, \hyperpage{27}
+
+\end{theindex}
