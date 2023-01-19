@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Qt-41CD52.svg?style=for-the-badge&logo=Qt&logoColor=white
+[![Qt badge]https://img.shields.io/badge/Qt-41CD52.svg?style=for-the-badge&logo=Qt&logoColor=white
 # Mobile-ERP-Store
 an AI-powered ERP System for small and middle-sized Store
 
